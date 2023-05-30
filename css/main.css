@@ -448,5 +448,79 @@ body {
     font-style: italic;
 }
 
-.blog__quote-img {
+/* FOOTER */
+
+.footer {
+    padding: 100px 0 80px;
+    background-color: var(--link-gray);
+    color: #FFF;
+}
+
+.footer__title {
+    font-weight: 300;
+    font-size: 32px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+}
+
+.footer__info {
+}
+
+.footer__info-item {
+    margin-bottom: 40px;
+}
+
+.footer__info-item dt, .footer__address-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer__info-item dd {
+    margin-bottom: 10px;
+}
+
+.social-list {
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+}
+
+.social-list__item {
+}
+.social-list__link {
+}
+.social-list__icon {
+}
+.footer__address {
+    flex-basis: 462px;
+}
+
+.footer__address-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#map {
+    height: 250px;
+}
+
+.footer__bottom {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__bottom-link {
+}
+.footer__logo {
+}
+.footer__logo-img {
 }

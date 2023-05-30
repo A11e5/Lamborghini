@@ -24,7 +24,7 @@ a:active {
 /* Links */
 
 a {
-	color: #000;
+	color: inherit;
 }
 
 a, a:link, a:visited  {
